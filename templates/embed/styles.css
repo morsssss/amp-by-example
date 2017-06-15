@@ -46,15 +46,21 @@ ul {
   list-style: none;
 }
 a[role="tab"]:hover {
-  background: #f4fcfe;
+  color: #888;
 }
 a[aria-selected], a[role="tab"]:focus {
   position: relative;
   font-weight: bold;
   outline: none;
 }
+a[aria-selected] {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
 a[role="tab"] {
-  color: #333;
+  color: #bbb;
   text-decoration: none;
   display: inline-block;
   margin-right: 8px;
